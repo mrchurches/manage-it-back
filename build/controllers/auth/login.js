@@ -1,12 +1,10 @@
+"use strict";
 // import { Response, Request } from "express";
-
 // import jwt from "jsonwebtoken";
 // const { Users } = require("../../db");
-
 // export const login = async (req: Request, res: Response) => {
 //   const { email, password } = req.body;
 //   //TODO hacer hash
-
 //   try {
 //     //Primero busca al usuario por mail, para poder identificar cual es el error.
 //     let userDb = await Users.findOne({ where: { email: email } });
